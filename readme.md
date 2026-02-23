@@ -19,13 +19,21 @@ This project demonstrates:
 
 ## Project Structure
 google-sheets-etl/
+
 ├── etl_pipeline.py          # Main ETL script
+
 ├── verify_data.py            # Data verification script
+
 ├── test_mongodb.py           # MongoDB connection test
+
 ├── requirements.txt          # Python dependencies
+
 ├── .env.example             # Example environment variables
+
 ├── .gitignore               # Git ignore rules
+
 └── README.md                # Project documentation
+
 ##  Setup Instructions
 
 ### Prerequisites
@@ -80,5 +88,6 @@ Progress tracking Support for UUID identifiers
 
 Author
 Joan Matata
+
 
 
