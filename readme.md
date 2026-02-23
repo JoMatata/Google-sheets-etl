@@ -39,28 +39,41 @@ google-sheets-etl/
 1. Clone the repository:
 ```bash
 git clone https://github.com/YOUR_USERNAME/google-sheets-etl.git
+
 cd google-sheets-etl
+
 Create virtual environment:
+
 python3 -m venv venv
 source venv/bin/activate
+
 Install dependencies:
 pip install -r requirements.txt
+
 Set up environment variables:
 cp .env.example .env
 ```
 # Edit .env with your credentials
 Add Google credentials:
 Place your credentials.json file in the project root
+
 Running the Pipeline
 python3 etl_pipeline.py
+
 Verifying Data
 python3 verify_data.py
+
 Features
 Bulk data insertion (50,000+ rows in seconds)
+
 Error handling and logging
+
 Data validation and cleaning
+
 Duplicate handling (upsert operations)
+
 Progress tracking Support for UUID identifiers
 
 Author
 Joan Matata
+
