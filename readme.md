@@ -55,15 +55,19 @@ cp .env.example .env
 ```
 # Edit .env with your credentials
 Add Google credentials:
+
 Place your credentials.json file in the project root
 
 Running the Pipeline
+
 python3 etl_pipeline.py
 
 Verifying Data
+
 python3 verify_data.py
 
 Features
+
 Bulk data insertion (50,000+ rows in seconds)
 
 Error handling and logging
@@ -76,4 +80,5 @@ Progress tracking Support for UUID identifiers
 
 Author
 Joan Matata
+
 
